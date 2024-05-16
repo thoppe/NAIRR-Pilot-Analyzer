@@ -1,0 +1,1591 @@
+{
+  "projects": [
+    {
+      "actionId": 170002,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264573,
+      "requestId": 1264573,
+      "requestTitle": "Agricultural pest identification with robustness guarantees",
+      "requestNumber": "NAIRR240115",
+      "pi": "Ganapathysubramanian, Baskar",
+      "piInstitution": "Iowa State University",
+      "piUsername": "0000-0002-8931-4852",
+      "fos": "Agriculture, Forestry, and Fisheries",
+      "fosTypeId": 502065,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This proposal requests computational resources on TACC Frontera to advance a transformative project in agriculture: developing a robust foundational vision model for pest identification (insects, weeds, and diseases). It builds on preliminary work with InsectNet, a model trained on a large dataset of insect images, to expand its capabilities significantly. The team aims to utilize an expanded dataset of approximately 100 million images and incorporate new architectures, including transformers, to enhance model accuracy, scalability, and robustness. A key innovation is the introduction of certified robustness to ensure model reliability against adversarial attacks, making it a crucial tool for improving agricultural outcomes globally. This project is supported by the USDA-NIFA and NSF-funded AI Institute for Resilient Agriculture and an NSF CPS Frontiers grant, underscoring its importance and potential impact on sustainable food production.",
+      "resources": [
+        {
+          "resourceId": 530440,
+          "resourceName": "TACC Frontera",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "920000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530440,
+          "resourceName": "TACC Frontera",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "920000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-15T20:39:07.485Z"
+    },
+    {
+      "actionId": 170031,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264601,
+      "requestId": 1264601,
+      "requestTitle": "An Empirical Evaluation of Accuracy, Robustness and Bias of Compressed Language Models",
+      "requestNumber": "NAIRR240144",
+      "pi": "Srikumar, Vivek",
+      "piInstitution": "University of Utah",
+      "piUsername": "0000-0003-0419-6568",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "It is not sufficient to ensure the safety, security and trustworthiness of today's largest AI systems. Indeed, given their resource constraints, compressed versions of AI systems will be deployed more often and ensuring their safety and robustness is important. To be effective, model compression methods must maintain predictive accuracy, while ensuring out-of-domain robustness. Furthermore, the resulting models should not show disparate predictive performance across societal groups. As a first step towards the safety of compressed models, our objective is to conduct the first comprehensive, multi-dimensional evaluation of compression techniques, focusing on accuracy, reliability, robustness, and bias of the resulting models.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "20000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "20000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-15T20:50:33.416Z"
+    },
+    {
+      "actionId": 170005,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264576,
+      "requestId": 1264576,
+      "requestTitle": "Community Runnable Earth Digital Intelligence Twin Training and Reforecats",
+      "requestNumber": "NAIRR240122",
+      "pi": "Gagne, David",
+      "piInstitution": "National Center for Atmospheric Research",
+      "piUsername": "0000-0002-0469-2740",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The goal of the Community Runnable Earth Digital Intelligence Twin (CREDIT) project is to develop, train, and evaluate global and regional artificial intelligence numerical weather prediction (AI NWP) models in an open, scaleable, science-focused framework. We will investigate how choices in the data processing, architecture, loss functions, and evaluation lead to more accurate, stable, physically consistent, and valuable AI NWP models and produce large sets of reforecasts for further analysis and evaluation by the broader community.",
+      "resources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "500000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "500000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-16T13:56:40.979Z"
+    },
+    {
+      "actionId": 167470,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1262408,
+      "requestId": 1262408,
+      "requestTitle": "Determining an optimal initial fluid rescucitation regime for patients with sepsis using machine learning",
+      "requestNumber": "NAIRR240021",
+      "pi": "Shteyler, Vadim",
+      "piInstitution": "University of California, San Francisco",
+      "piUsername": "nairr-user-43gxm",
+      "fos": "Clinical Medicine",
+      "fosTypeId": 502061,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "I am a postdoctoral trainee on a TL1 grant doing research and learning machine learning tools for causal inference. This research aims to reduce mortality in patients with sepsis, a heterogenous life-threatening response to infection characterized by organ dysfunction and immune dysregulation; it impacts millions of people annually worldwide and has a 15-30% mortality. Early intravenous fluid administration and vasopressors remain the hallmarks of sepsis-associated hypotension and shock treatment. However, high-quality evidence for any specific initial fluid resuscitation strategy is lacking. Nonetheless, Surviving Sepsis Campaign (SSC) guidelines and the Centers for Medicare and Medicaid Services (CMS) Severe Sepsis/Septic Shock Early Management Bundle (SEP-1) recommend an initial 30 cc/Kg ideal body weight (IBW) fluid administration within 3 hours of diagnosis and, if hypotension persists, vasopressor initiation within 6 hours of diagnosis. To determine whether this approach is, indeed, beneficial for patients with sepsis, we propose to conduct this retrospective observational cohort study to estimate the average fluid volume and administration rate that is associated with the lowest hospital mortality for most patients, using Targeted Maximum Likelihood Estimation (TMLE) and Longitudinal TMLE (LTMLE) with the ensemble machine learner SuperLearner (SL).",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "150.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "150.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T13:28:48.385Z"
+    },
+    {
+      "actionId": 170018,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264589,
+      "requestId": 1264589,
+      "requestTitle": "Developing Reliable Agents for Automating Complex Digital Tasks",
+      "requestNumber": "NAIRR240140",
+      "pi": "Balasubramanian, Niranjan",
+      "piInstitution": "Stony Brook University",
+      "piUsername": "0000-0003-4187-9368",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Generative AI has greatly expanded the scope of automation in complex tasks. Many day-to-day digital tasks require interacting with tools via APIs to solve problems in a step-by-step manner. For example, paying what we owe friends for a night out involves using apps such as Splitwise, emails, and Venmo. Many such common activities are complex tasks, requiring our interaction with multiple applications. If LLMs can be augmented with API-based access to these apps, we can automate such complex tasks. There have been significant advances in LLM tool use, and an increased push for automation in solving complex tasks. ChatGPT Plugins, for example, aim to support real-time information retrieval, access to specific knowledge bases, and perform actions such as booking a flight on behalf of a user. There is vast potential for solving a wide variety of complex tasks through such LLM-based automation. However, translating this potential into viable and verified real-world solutions requires both substantial advances in model capabilities and rigorous evaluation in a controllable environment. To this end, this team has already developed, AppWorld, an execution environment, a collection of complex tasks, and programmatic evaluation to verify the correctness of the solutions exhaustively. Benchmarking results show that standard ways of applying state-of-the-art models are unreliable and ineffective for these tasks. This proposal is aimed at developing and training reliable LLM-based agents using three approaches: (i) Supervising LLMs with iterative bootstrapping of tasks, (ii) Learning with feedback from the programmatic evaluator, and (iii) Learning via self-exploration within the execution environment.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "7000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "7000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-15T20:45:39.915Z"
+    },
+    {
+      "actionId": 167306,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1262279,
+      "requestId": 1262279,
+      "requestTitle": "Energy-based Robust and Safe Reinforcement Learning Via Diffusion Models",
+      "requestNumber": "NAIRR240020",
+      "pi": "Chen, Haipeng",
+      "piInstitution": "William & Mary",
+      "piUsername": "0000-0003-0572-8888",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This proposal aims to improve the existing MaxEnt Reinforcement Learning algorithm S2AC (Messaoud et al., 2024) by replacing the SVGD policy with a Diffusion Model-based policy. Since Diffusion Models are a class of generative models that are practically more stable than SVGD, we conjecture that the performance, especially robustness and safety of S2AC would be significantly enhanced by replacing the SVGD policy with Diffusion Model.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "4000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "4000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-05-02T18:06:23.053Z"
+    },
+    {
+      "actionId": 169739,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264321,
+      "requestId": 1264321,
+      "requestTitle": "Enhancing LM Adaptation toward Safe and Trustworthy AI",
+      "requestNumber": "NAIRR240046",
+      "pi": "Hajishirzi, Hanna",
+      "piInstitution": "University of Washington",
+      "piUsername": "0000-0002-1055-6657",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The capabilities of large language models (LMs) to follow user requests have been progressing rapidly through a wide range of openly available models, datasets, and training methods. In the meantime, we need to make these models safe, secure, and trustworthy. There has been rapid progress in both improving capabilities and safety of language models. Our team at UW are at the forefront of building open-source language models and adapting them to new capabilities and safety measures~\\citep{wang2023far}, and making them trustworthy~\\cite{asai-etal-2023-retrieval}. Since the release of our state-of-the-art models~\\citep{wang2023far},  there have been a number of significant advances in almost all aspects of  language model adaptation, from the release of improved finetuning datasets~\\citep{UltraChat, cui2023ultrafeedback}, to  increasingly powerful base models~\\citep{touvron2023llama,jiang2023mistral}, to powerful and accessible adaptation methods for combining these components~\\citep{rafailov2023direct, dettmers2023qlora}, and retrieval-augmentation models~\\cite{asai-etal-2023-retrieval}. Building on our team's prior expertise, we propose to introduce and investigate approaches to make language models safe  and trustworthy.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "80000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "80000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-15T20:05:49.132Z"
+    },
+    {
+      "actionId": 169898,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264497,
+      "requestId": 1264497,
+      "requestTitle": "Exploring Iterative Reasoning in LLMs and the Transferability to Multimodal Models",
+      "requestNumber": "NAIRR240129",
+      "pi": "Winder, John",
+      "piInstitution": "Johns Hopkins University Applied Physics Laboratory",
+      "piUsername": "nairr-user-ikier",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This project aims to explore the reasoning process of Large Language Models (LLMs) and investigate the generalizability of these capabilities from text to multimodal contexts using joint embedding models. We hypothesize that transformers, the underlying architecture of LLMs, perform semantic reasoning through an iterative numerical optimization process. Through analyzing token transformations and employing techniques like principal component analysis (PCA), we seek to understand and interpret LLM's reasoning processes. Additionally, we will investigate the transferability of this reasoning process to other modalities by leveraging the ImageBind model. This study not only seeks to better understand the reasoning mechanisms of LLMs but also to apply these findings to modalities beyond text.",
+      "resources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "175000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "175000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-16T13:43:48.875Z"
+    },
+    {
+      "actionId": 170044,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264614,
+      "requestId": 1264614,
+      "requestTitle": "Georgetown University Advanced Computing Resource Request for AI Education",
+      "requestNumber": "NAIRR240154",
+      "pi": "Hickman, James",
+      "piInstitution": "Georgetown University",
+      "piUsername": "nairr-user-8ocqx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This proposal aims to acquire computational resources for student-led projects to bolster AI education, with the goal of facilitating workforce development in the Artificial intelligence space. The Department of Data Science and Analytics (DSAN) at Georgetown University boasts a sizable and diverse population of over 200 Master's level students, with an annual cohort size of approximately 120 students. Our goal is to secure computational resources that will enable our student body to delve into a wide array of issues at the intersection of data science, deep learning, and AI. This includes tasks such as testing, evaluating, verifying, and validating AI systems and models to ensure safe, secure and trustworthy AI. Our program offers a comprehensive range of AI and deep learning courses, including DSAN-6600: Introduction to deep learning, DSAN-6500: Image Mining and Computer Vision Analytics, DSAN-6650: Deep Reinforcement Learning, DSAN-5400: Computational Linguistics, DSAN 5800: Advanced Natural Language Processing, and DSAN-5810: NLP with Large Language Models. While these courses provide our students with a robust skill set in deep learning, their projects are currently significantly restricted by our limited access to GPU and super-computer resources. Therefore, our objective in submitting this proposal is to enhance our department's computational resources, thereby expanding the complexity of the models and methodologies accessible to our students.",
+      "resources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "75.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530440,
+          "resourceName": "TACC Frontera",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "12500.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "75.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530440,
+          "resourceName": "TACC Frontera",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "12500.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-05-02T18:18:55.132Z"
+    },
+    {
+      "actionId": 169422,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1263963,
+      "requestId": 1263963,
+      "requestTitle": "Improving Factuality in Automated Course Logistics Question Answering",
+      "requestNumber": "NAIRR240030",
+      "pi": "Lan, Andrew",
+      "piInstitution": "University of Massachusetts Amherst",
+      "piUsername": "0000-0002-8475-6600",
+      "fos": "Educational Sciences",
+      "fosTypeId": 502072,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Automated teaching assistants and chatbots have significant potential to reduce the workload of human instructors, especially for logistics-related question answering, which is important to students yet repetitive for instructors. However, due to privacy concerns, there is a lack of publicly available datasets. We have collected a dataset, which we call SyllabusQA, an open-source dataset with 63 real course syllabi covering 36 majors, containing 5,078 open-ended course logistics-related question-answer pairs that are diverse in both question types and answer formats. Our goal is to benchmark several strong baselines on this task, from large language model (LLM) prompting to retrieval-augmented generation (RAG), to investigate whether existing methods can perform well in terms of both textual similarity and fact precision.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "1000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "1000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-30T14:20:14.371Z"
+    },
+    {
+      "actionId": 161179,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1256555,
+      "requestId": 1256555,
+      "requestTitle": "Investigating Security Issues in Instruction-Tuned Large Language Code Models",
+      "requestNumber": "NAIRR240007",
+      "pi": "Hei, Xiali",
+      "piInstitution": "University of Louisiana at Lafayette",
+      "piUsername": "0000-0002-2438-5430",
+      "fos": "Other Computer and Information Sciences",
+      "fosTypeId": 502099,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The incorporation of AI coding tools into software engineering workflows raises significant security concerns. Malicious user prompts or training data attacks may result in AI-generated code containing software backdoors, logic corruption, unauthorized code execution, and other malicious behavior or software exploits. Previous studies have primarily focused on evaluating the robustness of large pre-trained code models like CodeBERT, GraphCodeBERT, and CodeT5 against adversarial examples in tasks such as code clone detection, vulnerability identification, and authorship attribution. However, security issues in advanced and instruction-tuned code LLMs like WizardCoder and CodeLlama have yet to be investigated.\n\nTo address this gap, the project aims to systematically uncover novel vulnerabilities and attack vectors introduced by instruction-tuned code LLMs, providing fundamental insights into their implications for cybersecurity and AI-incorporated software engineering workflows. The proposed work represents the first comprehensive investigation into the risks of code injection attacks against instruction-tuned code LLMs. Furthermore, we will develop a technique for identifying adversarial threats against instruction-tuned code LLMs, involving the detection of adversarially manipulated inputs and generated code before execution.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "2000.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "2000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "2000.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "2000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T12:55:13.421Z"
+    },
+    {
+      "actionId": 170046,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264616,
+      "requestId": 1264616,
+      "requestTitle": "LakeGPT: Building a Foundation Model for Aquatic Sciences",
+      "requestNumber": "NAIRR240161",
+      "pi": "Karpatne, Anuj",
+      "piInstitution": "Virginia Tech",
+      "piUsername": "0000-0003-1647-3534",
+      "fos": "Ecology",
+      "fosTypeId": 502127,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The goal of this project is to build a foundation model for aquatic sciences, termed Lake-GPT, to model a variety of processes related to the quality of water in lakes and reservoirs, using novel advances in the emerging field of ecology knowledge-guided machine learning (eco-KGML). Supported by an NSF grant from the Macrosystems Biology and NEON-Enabled Science (MSB-NES) program, our work is opening a new chapter of research in AI to model scientific systems where we have growing volumes of data collected from sensors as well as generated from model simulations. Our research in eco-KGML also makes a distinct departure from mainstream practices of building black-box AI models, that solely rely on supervision contained in data, to also leverage the wealth of scientific knowledge available in many domains including aquatic sciences (e.g., conservation laws of mass and energy) in diverse formats (as equations, rules, heuristics, or as mechanistic model runs) and with varying fidelities of knowledge (ranging from perfect and complete to imperfect and partial). Inspired by the success of large-scale foundation models in mainstream applications of computer vision and language understanding in the commercial arena, the domain of aquatic sciences is ripe with opportunities to investigate the effectiveness of foundation models for modeling scientific processes using both scientific knowledge and data.",
+      "resources": [
+        {
+          "resourceId": 531991,
+          "resourceName": "No resource preference. Choose for me.",
+          "resourceType": "Program",
+          "resourceUnits": "GPU Hours",
+          "amount": "750000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531991,
+          "resourceName": "No resource preference. Choose for me.",
+          "resourceType": "Program",
+          "resourceUnits": "GPU Hours",
+          "amount": "750000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-15T19:58:34.469Z"
+    },
+    {
+      "actionId": 169428,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1263968,
+      "requestId": 1263968,
+      "requestTitle": "Privacy-Preserving Synthetic Data Generation for AI Research",
+      "requestNumber": "NAIRR240091",
+      "pi": "De Cock, Martine",
+      "piInstitution": "University of Washington Tacoma",
+      "piUsername": "0000-0001-7917-0771",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Data is the lifeblood of AI. Much of the most valuable data in the nation however is siloed in research centers, hospitals, banks, etc. The long and onerous processes that researchers have to go through to access each silo is causing a substantial underutilization of AI in many of the most important domains, including healthcare, genomics, justice, education, and finance. Synthetic data generation (SDG) offers an appealing solution to make data more broadly available for AI research while mitigating privacy concerns. Current SDG algorithms however lack provisions for protection of input privacy. Our goal is to leverage the NAIRR infrastructure to make it possible for data holders to contribute their data to an SDG process without disclosing that data in an unencrypted manner. The enhanced privacy brought by the ability to train synthetic data generators over encrypted data comes at a significant computational cost, which is a justifiable price to pay in very sensitive domains like healthcare and genomics.",
+      "resources": [
+        {
+          "resourceId": 530440,
+          "resourceName": "TACC Frontera",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "225000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530440,
+          "resourceName": "TACC Frontera",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "225000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:56:11.589Z"
+    },
+    {
+      "actionId": 169997,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264568,
+      "requestId": 1264568,
+      "requestTitle": "Scalable Editing of Vision-Language Models, With Applications to Cyber-Physical Systems",
+      "requestNumber": "NAIRR240113",
+      "pi": "Hegde, Chinmay",
+      "piInstitution": "New York University",
+      "piUsername": "0000-0003-4574-8066",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This NAIRR Pilot project seeks to enable significant advances in scalable model editing approaches for making multimodal AI models safe, robust, and aligned with desirable societal values. Model editing refers to the process of systematically adjusting the weights of an existing (trained) AI model so that the new model obeys certain desiderata. Most model editing approaches suffer from issues of scale (they work only for small-scale models) and extent (they are only able to change model properties to a limited degree). Our project seeks to test novel strategies that can significantly surpass such limitations.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "50000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "50000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-16T14:26:27.624Z"
+    },
+    {
+      "actionId": 169726,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264312,
+      "requestId": 1264312,
+      "requestTitle": "Training and Benchmarking Three Different Foundation Models on Public Histopathology Gigapixel Images for Whole Slide Image Representation",
+      "requestNumber": "NAIRR240044",
+      "pi": "Tizhoosh, Hamid",
+      "piInstitution": "Mayo Clinic ",
+      "piUsername": "0000-0001-5488-601X",
+      "fos": "Performance Evaluation and Benchmarking",
+      "fosTypeId": 502085,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This proposal addresses the challenge of transforming whole slide images (WSIs) into actionable vectors for different computational pathology (CP) tasks. Despite recent progress in leveraging artificial intelligence (AI) in CP, WSIs pose unique challenges due to their large size and complex features. Our objective is to secure resources to train and benchmark three foundation models tailored for WSI representation. We aim to utilize publicly available datasets to conduct the largest-ever effort in training and benchmarking models at the WSI level. The selected models include LongNet, LambdaNetworks, and RWKV, each offering distinct approaches to long sequence analysis. Leveraging diverse datasets such as TCGA, PANDA, CAMELYON16, BRACS, and BCNB, we will ensure comprehensive coverage for robust training and evaluation. The evaluation will assess the performance of each model across relevant metrics, providing standardized findings for comparison. Given the massive size of WSIs, substantial computational and storage resources are required. Successful implementation of this proposal will advance research in CP, driving innovation and clinical translation. By providing comprehensive evaluations, this initiative empowers the research community to make informed decisions, ultimately improving patient outcomes.",
+      "resources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:10:29.952Z"
+    },
+    {
+      "actionId": 169780,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264357,
+      "requestId": 1264357,
+      "requestTitle": "Unified Representation Learning",
+      "requestNumber": "NAIRR240057",
+      "pi": "Shrivastava, Abhinav",
+      "piInstitution": "University of Maryland, College Park",
+      "piUsername": "0000-0001-8928-8554",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Deep learning has dominated the fields of generative modeling and discriminative visual recognition for the past decade. For generative tasks, a deep learning model seeks to synthesize or edit parts of images, while for discriminative tasks, it learns to label images or parts of images.  We argue that both of these can be considered complementary and intuitively should help each other because both need a semantic understanding of the underlying structure. We will develop unsupervised unified representations, for generative and discriminative tasks, to be used as general-purpose representations for various downstream tasks like image recognition, reconstruction, and synthesis. Such unified models can be efficiently finetuned for multiple downstream tasks, as opposed to having to pre-train large, expensive models separately for different tasks.",
+      "resources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "100000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "100000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-15T20:35:30.212Z"
+    },
+    {
+      "actionId": 169923,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264511,
+      "requestId": 1264511,
+      "requestTitle": "Use of AI and sub-meter resolution satellite imagery to map permafrost thaw disturbances and human-built infrastructure at pan-Arctic scale",
+      "requestNumber": "NAIRR240088",
+      "pi": "Witharana, Chandi",
+      "piInstitution": "University of Connecticut (Storrs, CT)",
+      "piUsername": "nairr-user-agqmx",
+      "fos": "Geology and Solid Earth Sciences",
+      "fosTypeId": 502117,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The Arctic is experiencing more rapid warming than many other regions leading to degradation of permafrost, - the permanently frozen earth materials that remain at 0\u00b0C or below for two or more consecutive years-, at an alarming rate. Widespread permafrost thaw induced disturbances negatively impact an array of natural processes, altering hydrology, vegetation dynamics and biogeochemical fluxes, and posing serious threat to human-built environment by damaging buildings and critical infrastructure sitting on permafrost-affected ground.  Permafrost thaw disturbances and microtopographic transitions are no longer localized phenomena but extend across the Arctic. Conventional field surveys and local-scale monitoring mechanisms are unable to offer synoptic assessments of permafrost degradations and ramifications on natural and human-built environments.  Consequently, there is a dire need for new monitoring tools to precisely map permafrost landforms and thaw disturbances and monitor their changes over time and assess the permafrost thaw risk on human-built infrastructure. \nPermafrost dominated landscape in the Arctic harbor a variety of distinctive landforms shaped by the freezing and thawing of the ground.  Ice-wedge polygons (IWPs), the most conspicuous and critical microtopographic formation found in the cold continuous permafrost regions, are underlain by several meter-wide and deep ice-wedges that form a network across the tundra. The microtopography associated with IWPs dictates the Arctic ecosystem from local to regional scales due to the impacts on the flow and storage of water and consequently alter vegetation and carbon dynamics. Field and remote sensing-based studies reported ice-wedge degradation transformation of low-centered polygons into high-centered polygons due to permafrost thaw at several locations across the Arctic tundra. Spatially patchy and temporally sparse knowledge on ice-wedge polygon system's dynamics inevitably lead to uncertainties in regional and pan-Arctic estimates of carbon, water, and energy fluxes. Closing such critical information gaps and improving multi-scale models require objective and detailed geospatial data sets consolidating the ice wedge polygon extent and their prevailing successional stages.\nThe entire Arctic has been imaged by sub-meter resolution Maxar satellite sensors multiple times during the last two decades. Data repositories holding millions of Maxar images are now at petabyte scale. However, comprehensive Pan-Arctic science products derived from this imagery are scarce. This is largely due to data size (big data) and semantic complexity of satellite images. With the funding from NSF Polar Programs (award #s: 1927723, 1827872, 1927720), we pursue the first-of-its-kind permafrost science use case that capitalizes on a large volume of commercial satellite imagery to create the first Pan-Artic scale ice-wedge polygon map covering > 5 million km2 in the Arctic. We harnessed thousands of Maxar imagery, deep learning CNNs, and high-performance computing resources to develop a scalable and reproducible image-to-assessment pipeline. The operational implementation of our mapping pipeline on high-performance computing systems has detected more than one billion individual IWPs. The deep learning model predictions comprise spatial outlining of IWPs coupled with their classification and geometrical attributes at individual IWP-level. The resulting Pan-Arctic ice-wedge polygon map holds significant potential to serve a diverse user community, facilitating a deeper understanding of the intricate and interconnected processes governing the evolution of the ice-wedge polygon tundra landscape. \nThe technical goal of this proposal is to improve the performance of our GeoAI pipeline by integrating vision transformers and extending its capabilities to map other important features. Self-attention-based neural net architectures, in particular Transformers have shown extraordinary success in multiple domains, especially in natural language processing (e.g., Chat GPT). Since foundation models are trained on internet-scale training data sets, they can be generalized with zero-shot and few-shot learning to a new task. The introduction of Segment Anything Model (SAM) is an attempt to come out with a foundation model for image segmentation tasks. SAM enables image segmentation without having to train the model on a large set of training samples (zero-shot learning). As with ChatGPT, SAM also uses a transformer-based approach. DL is rapidly moving away from the CNN-based computer vision models to vision transformers (ViTs). Currently, ViT-based models exhibit great promise on benchmark segmentation datasets. However, one major challenge is in adopting ViTs from everyday images to be able to segment geo-objects in high resolution satellite images. Continued access to HPC resources is critical for us to improve the existing DL pipelines via the introduction of new technologies, training and tuning of models, and to create new geospatial map products and reach our new aims successfully. The central objective of this proposal is to request HPC resources that are necessary to develop, train and validate transformer-based AI models.",
+      "resources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "110000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "110000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170047,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264617,
+      "requestId": 1264617,
+      "requestTitle": "Reinforcement Learning from Conversational Signals",
+      "requestNumber": "NAIRR240042",
+      "pi": "Artzi, Yoav",
+      "piInstitution": "Cornell University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "We propose to fine-tune language models from interaction with users without explicit feedback, but instead from signals arising from how humans respond to system outputs in multi-turn conversational interactions. Unlike explicit human feedback, these signals require no annotation effort beyond the interaction itself. We develop an approach to learn from human response to system utterances to improve an underlying large language  model. We use two interaction scenarios for our studies and experiments, and evaluate through deployment with human users.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "12000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "12000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170048,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264618,
+      "requestId": 1264618,
+      "requestTitle": "Advanced Training for Protein Diffusion, Binder Prediction, and Antibody Design",
+      "requestNumber": "NAIRR240031",
+      "pi": "Baker, David",
+      "piInstitution": "University of Washington Howard Hughes Medical Institute",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Biochemistry and Molecular Biology",
+      "fosTypeId": 502061,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Advances in deep learning have enabled accurate protein structure prediction and are massively speeding up biochemical discoveries. We recently developed RoseTTAFold All-Atom and RFDiffusion, allowing prediction and generation of complicated biomolecules, including non-amino acids. While seeing early success, current models encounter challenges for designing binders to polar flexible ligands, antibody-protein interactions, and enzyme catalytic sites. We propose to fine-tuning our current models for specific problems, such as antibodies and polar ligands, to quickly improve the model performance even with limited training resources and enable us to tackle problems currently inaccessible but more clinically related.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "5000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "5000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170049,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264619,
+      "requestId": 1264619,
+      "requestTitle": "Towards Mechanistic Audits of LLMs",
+      "requestNumber": "NAIRR240038",
+      "pi": "Crovella, Mark",
+      "piInstitution": "Boston University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The safety of machine learning tools is a critical societal concern.  The imment wide deployment of LLMs in society elevates the need for principled methods for auditing LLMs for socially undesirable behavior.   While previous attempts to perform algorithmic audits are often black-box, we propose to explore the white-box auditing of open source LLMs via the techniques of mechanistic interpretability.   This project will develop a large test suite of datasets corresponding to socially relevant concepts.  We will then use these datasets to probe a suite of LLMs to determine for which concepts and models the linear representation hypothesis holds.  In those cases, we will examine the resulting linear representations for evidence of undesirable interaction, for example, through interference due to superposition.  All datasets and results will be published in the open literature.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "700.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "700.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170050,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264620,
+      "requestId": 1264620,
+      "requestTitle": "Enhancing Scalability and Privacy of Federated LLMs",
+      "requestNumber": "NAIRR240027",
+      "pi": "Ding, Yufei",
+      "piInstitution": "University of California, San Diego",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This proposal explores the evolving landscape of Large Language Models (LLMs) like GPT, LLaMa, and PaLM, which have revolutionized areas including ChatBot interaction, time series forecasting, and code generation. Central to LLMs' effectiveness is the scale of their architecture and the extent of training data. However, the reliance on extensive, diverse datasets challenges the capacity of public data, necessitating the integration of private domain data. This integration, while promising, is hindered by privacy and competitive concerns. To navigate these challenges, the proposal emphasizes Federated Learning (FL) for LLMs. FL enables decentralized training across multiple private domains without relocating the data, addressing privacy issues. Yet, FL introduces systemic challenges, such as hardware heterogeneity and connectivity variances, which can compromise training effectiveness. Additionally, privacy concerns in FL are amplified in LLMs due to the influential role of fewer participants, raising the risk of peer-to-peer data breaches. The research focuses on two key areas: developing a Scalable Federated Learning System for LLMs and formulating a Security and Privacy Preserving Algorithm for their training. This approach aims to refine federated training processes and algorithms, setting a benchmark in federated LLM training. The anticipated outcome is a versatile, secure federated learning framework applicable across various domains, demonstrating the extensive potential of FL in advancing LLMs.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "1300.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "1300.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170051,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264621,
+      "requestId": 1264621,
+      "requestTitle": "Training Foundation Models from Private, Federated Client Data",
+      "requestNumber": "NAIRR240010",
+      "pi": "Fanti, Giulia",
+      "piInstitution": "Carnegie Mellon University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Federated learning (FL) is arguably the most widely-adopted paradigm today for training machine learning models from private, on-device client data. However, with the rise of large language models, many models are too large to fit and train on-device in FL pipelines. Various solutions have been explored, including training sparse subsets of parameters on-device. In this proposal, we study a different paradigm for training foundation models from distributed, private client data: private synthetic data. We aim to study whether distributed clients can help a central server generate private synthetic data that can be used to centrally fine-tune foundation models. We hypothesize that this approach can be used to train private language models much more cheaply than  with FL.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "24000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "24000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170052,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264622,
+      "requestId": 1264622,
+      "requestTitle": "Guardians of Integrity in AI: Establishing Trust, Originality, and Ethical Standards (GATES)",
+      "requestNumber": "NAIRR240045",
+      "pi": "Huang, Furong",
+      "piInstitution": "University of Maryland",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "The advent of generative AI has ushered in unprecedented capabilities alongside significant ethical and security challenges. Guardians of Integrity in AI: Establishing Trust, Originality, and Ethical Standards (GATES) proposes an innovative research agenda aimed at fortifying the ethical backbone of artificial intelligence. This project targets three pivotal areas: the detection of AI-generated content to combat misinformation, the protection of intellectual property rights to uphold the originality and fairness in AI-generated works, and the development of trustworthy foundation models for enhanced human-AI collaboration. Through GATES, we intend to develop robust methodologies and frameworks that ensure AI systems are safe, secure, and aligned with human values. This initiative not only addresses immediate concerns within the AI community but also lays the groundwork for sustainable, ethical AI development, resonating with the goals of the NAIRR Pilot initiative. By integrating advanced computational techniques with ethical principles, GATES aims to lead the way in establishing a new standard for trustworthy AI, ensuring that these powerful technologies augment human capabilities without compromising ethical standards.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "20000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "20000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170053,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264623,
+      "requestId": 1264623,
+      "requestTitle": "Securing Healthcare Privacy: Rendering Large-Scale Unlearnable Medical Imaging Data to Prevent Data Leaks",
+      "requestNumber": "NAIRR240055",
+      "pi": "Huo, Yuankai",
+      "piInstitution": "Vanderbilt University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This proposal outlines an innovative secure and trustworthy AI approach to safeguard healthcare data from unauthorized use in AI model training through the development of unlearnable examples (UE). As AI models, including foundation models like ChatGPT, SAM, and Sora, increasingly raise privacy and safety concerns, especially with the unauthorized use of patient data, the National Artificial Intelligence Research Resource (NAIRR) project aims to pioneer privacy-ensured radiological AI. By embedding invisible noise in over 2 million radiological images from MRI and CT scans, this project will generate label-agnostic UE models that protect medical imaging data against misuse in future AI training, without compromising their clinical utility. The project will leverage cutting-edge UE algorithms, high-performance computing, and Vision Transformer models to achieve its objectives. It addresses the urgent need for robust privacy measures in healthcare data, responding to the risks posed by the repurposing of medical imaging for AI training without explicit consent. The proposal also outlines a comprehensive strategy to overcome the challenges of developing UE models for healthcare, including the need for large-scale medical image datasets and substantial computational resources. Aim 1 focuses on rendering large-scale medical imaging data unlearnable, while Aim 2 assesses the effectiveness of UE models against various target models and advanced defenses. The project plans a six-month timeline to achieve its goals, aiming for outcomes that will be shared in leading academic venues. The success of this NAIRR project is expected to significantly advance the field of AI healthcare data security by utilizing Vanderbilt's clinical imaging data in conjunction with DOE's Leadership Computing Facility. This will lay the groundwork for future collaborations and open new avenues for healthcare and high-performance computing (HPC) AI research, ensuring privacy and intellectual property protections for sensitive healthcare data.",
+      "resources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "100000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "100000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170054,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264624,
+      "requestId": 1264624,
+      "requestTitle": "Neuro-inspired Oversight for Safe and Trustworthy Large Language Models",
+      "requestNumber": "NAIRR240051",
+      "pi": "Kim, Edward",
+      "piInstitution": "Drexel University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "We have observed that improving instruction following is fundamentally at odds with the ability of a language model to follow given safety filters or guidelines.  We have previously showed that larger parameter models exhibit superior capability in following instructions that require overriding both internal knowledge and contextual cues, demonstrating a high degree of obedience.  However, our research also highlights a fundamental issue between enhancing a model's ability to override instructions and maintaining adherence to safety protocols and guidelines.  Specifically, the most responsive instruction following LLMs are the ones that can be most easily jailbroken.\n\nIn our work, we believe that the architecture of the human brain illustrates a critical point, there is a separation between language understanding and moderation.  This is supported by functional mapping studies that show the language understanding center, e.g. Wernicke's area, and speech moderation and production area, Broca's area and surrounding Frontal Lobe, are in two distant and separate areas of the brain.  We are pursuing research in LLM moderation through the lens of biological intelligence.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "10752.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "10752.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170055,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264625,
+      "requestId": 1264625,
+      "requestTitle": "Generative Artificial Intelligence and Racial Bias in Disease Representation",
+      "requestNumber": "NAIRR240011",
+      "pi": "Mankowski, Michal",
+      "piInstitution": "NYU Langone",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Clinical Medicine",
+      "fosTypeId": 502061,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This research proposal aims to expand upon the ongoing study on generative Artificial Intelligence (genAI) and racial/sex bias, which investigates the depiction of patients with various diseases by genAI. We will study a broad range of diseases, particularly those with historical stigmatization, and incorporate a wide range of various AI models. The study will examine the sensitivity of genAI to linguistic framing of prompts in the context of different diseases such as cancer, diabetes, syphilis, etc. The research can potentially reveal important insights into understanding and mitigating racial biases and historical stigmatization in AI disease representation.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "2000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "2000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170056,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264626,
+      "requestId": 1264626,
+      "requestTitle": "Developing Trustworthy, Robust AI models for Science using Privacy Preserving Federated Learning",
+      "requestNumber": "NAIRR240008",
+      "pi": "Ravi, Madduri",
+      "piInstitution": "Argonne National Laboratory",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Federated learning (FL) is a collaborative learning approach where multiple data owners, referred to as clients, train a model together under the orchestration of a central server by sharing the model trained on their local datasets instead of sharing the data directly. FL enables creation of more robust models without the exposure of local datasets. However, FL by itself, does not guarantee the privacy of data, because the information extracted from the communication of FL algorithms can be accumulated and utilized to infer the private local data used for training. We developed Argonne Privacy Preserving Federated Learning framework (APPFL), with advances in differential privacy, to enable Privacy-Preserving Federated Learning (PPFL). We enabled training of AI models in a distributed setting across multiple institutions, where sensitive data are located, with the ability to scale on supercomputing resources to help create robust, trust-worthy AI models in biomedicine and smart grid applications where data privacy is essential. Setting up a secure federated learning experiment that needs high performance computational resources across distributed sites requires technical capabilities that may not be available for all. To lower the barrier to entry for leveraging PPFL and to enable domain experts in large institutions to utilize FL, we created the Argonne Privacy-Preserving Federated Learning as a service (APPFLx), which enables cross-silo PPFL using easy to use web interface for managing, deploying, analyzing, and visualizing PPFL experiments. \n\nAPPFLx enables secure federations using end-to-end strong Identity and Access Management, where members can create a new federation or join an existing federation using their institutional identities, perform privacy-preserving training on datasets at their respective institutions and securely share the model weights with the service to enable secure aggregation. Existing PPFL frameworks typically involve downloading and configuring complex software, manually creating trust boundaries and identities to enable gradient aggregation, understanding of technical details of underlying deep learning software stack to enable distributed training which is cumbersome. \n\nAPPFLx features include secure distributed training on heterogenous computing resources, choice of over half a dozen federation strategies, including synchronous and asynchronous strategies, integration with TensorBoard capabilities, interfaces to examine data distributions and resource consumption across different sites, detailed reports of different experiments, ability to use model architectures from GitHub or pre-trained models from HuggingFace model repository and the ability to set different hyperparameters of the experiments (like privacy budget to be used in training). \n\nIn this proposal, we aim to create new AI models, fine-tune existing LLMs for biomedical tasks, evaluate various communication, privacy and performance issues inherent in FL.",
+      "resources": [
+        {
+          "resourceId": 531958,
+          "resourceName": "DOE Argonne National Laboratory AI Testbed",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 531727,
+          "resourceName": "PSC Neocortex (PSC Neocortex - Cerebras Wafer Scale Engine AI Accelerator)",
+          "resourceType": "Compute",
+          "resourceUnits": "CS-2 Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "3750.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531958,
+          "resourceName": "DOE Argonne National Laboratory AI Testbed",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 531727,
+          "resourceName": "PSC Neocortex (PSC Neocortex - Cerebras Wafer Scale Engine AI Accelerator)",
+          "resourceType": "Compute",
+          "resourceUnits": "CS-2 Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3750.0",
+          "comments": null
+        },
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "3750.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170057,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264627,
+      "requestId": 1264627,
+      "requestTitle": "Aligning with Human Preferences for Safe Autonomous Systems",
+      "requestNumber": "NAIRR240012",
+      "pi": "Sadigh, Dorsa",
+      "piInstitution": "Stanford University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Reinforcement Learning from Human Feedback (RLHF) has emerged as a popular paradigm for aligning models with human intent. In this work, we study the problem of learning robot policies and reward functions that are aligned with societal scale objectives and human preferences. This ensures the robot policies learned satisfy desirable safety specifications and can robustly act and interact in human spaces. We plan to leverage and refine large vision-language models that can act as proxy preferences of humans via human feedback. Specifically, we will pretrain and adapt robot policies initialized with these VLMs to achieve the alignment objective. Finally, we will evaluate these policies on real robotic hardware for assistive and home robotics tasks with 7-DoF manipulators.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "2000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "2000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170058,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264628,
+      "requestId": 1264628,
+      "requestTitle": "Evaluating and Mitigating Bias in Autonomous Patient Monitoring from ICU Videos",
+      "requestNumber": "NAIRR240024",
+      "pi": "Schulman, Kevin",
+      "piInstitution": "Clinical Excellence Research Center (CERC), Stanford School of Medicine",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Health Sciences",
+      "fosTypeId": 502061,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "As part of our research objective to advance ambient intelligence in healthcare, we propose developing computer vision models to predict Richmond Agitation-Sedation Scale (RASS) scores from video streams of cameras in ICU patient rooms. RASS score is a critical indicator of a patient's level of consciousness and agitation. By accurately predicting RASS scores in real time, we can help clinicians manage patient sedation, improve patient outcomes, and enhance the quality of care provided. Importantly, our model development process incorporates robust measures to mitigate bias related to race and demographics, ensuring equitable predictions across diverse patient populations.",
+      "resources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "70000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "70000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170059,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264629,
+      "requestId": 1264629,
+      "requestTitle": "Enhancing Generalization for Detecting AI-Synthesized Fake Multimedia",
+      "requestNumber": "NAIRR240009",
+      "pi": "Shu, Hu",
+      "piInstitution": "Purdue University in Indianapolis",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "DeepFake, a term increasingly mentioned in the news and social media, refers to highly realistic fake images, audios, and videos created using AI algorithms.  By creating illusions of an individual's activities that did not occur in reality, DeepFakes can cause serious harm when they are weaponized. The recent detectors often show good results in intra-domain testing,  where training and testing data are generated using identical forgery techniques. However, real-world scenarios often involve testing data created via unknown forgery methods, differing from the training data. This discrepancy leads to subpar cross-domain detection performance, exemplifying the generalization problem in DeepFake detection. This issue poses a major hurdle for the practical application of existing detection methods. Without such generalization, the current DeepFake detection methods are failing to recognize DeepFakes generated by DeepFake makers using new or evolving techniques and therefore are susceptible to obsolescence easily. This project requests the NAIRR Pilot resources to enhance generalization in detecting novel DeepFakes, aligning with NAIRR's focus area on advancing Safe, Secure and Trustworthy AI and the core research aim of Improving accuracy, validity, and reliability of model performance, while controlling bias. The project's findings will be disseminated through publications in prestigious conferences and journals. All algorithms developed throughout this project will be made openly accessible as open-source software on GitHub.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "4320.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "4320.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170060,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264630,
+      "requestId": 1264630,
+      "requestTitle": "Developing a benchmark hydrologic dataset and a fast AI surrogate model for assessing climate impacts on mountainous hillslopes",
+      "requestNumber": "NAIRR240032",
+      "pi": "Wang, Lijing",
+      "piInstitution": "Lawrence Berkeley National Laboratory",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Hydrology and Water Resources",
+      "fosTypeId": 502065,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Mountainous watersheds serve as the water tower for downstream rivers. However, observations of discharge and groundwater levels are limited at the subcatchment level, and using hydrologic modeling directly at the subcatchment scale without observations will not provide realistic predictions. To address this sparse data gap, this project aims to simulate stochastic hydrologic responses across 2,000 mountainous hillslopes under various climate scenarios and uncertain subsurface and surface properties. The baseline mountainous hillslope model we used has integrated intensive geophysical and hydrologic datasets. The simulated 2,000 hydrologic responses become an AI-ready dataset to benchmark realistic hydrologic variations. Additionally, leveraging the Neural Operator, we plan to develop a fast AI surrogate model to quickly predict snowpack, discharge, and groundwater levels, substituting time-intensive hydrologic simulations. This pilot study not only advances hillslope hydrologic models by incorporating realistic subsurface and surface uncertainties but also contributes an openly accessible hydrologic dataset and a pretrained AI model for rapid hydrologic forecasting in mountainous regions, supporting water budgeting and climate impact assessments.",
+      "resources": [
+        {
+          "resourceId": 531958,
+          "resourceName": "DOE Argonne National Laboratory AI Testbed",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "10500.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531958,
+          "resourceName": "DOE Argonne National Laboratory AI Testbed",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "10500.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170061,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264631,
+      "requestId": 1264631,
+      "requestTitle": "Interpretable Bayesian Deep Learning: From Neural Networks to Large Language Models",
+      "requestNumber": "NAIRR240023",
+      "pi": "Wang, Hao",
+      "piInstitution": "Rutgers University - New Brunswick",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Interpretability is one of the fundamental obstacles hindering the adoption and deployment of deep learning (DL) systems, from typical deep neural nets like CNNs/RNNs to large language models (LLMs) and large multimodal models (LMMs) like GPT-4(V), across various fields such as healthcare, e-commerce, and manufacturing. An ideal interpretable model should be able to produce symbolic representations understandable by humans (e.g., what diseases and symptoms each variable in the model represents), conform to conditional dependencies in the real world (e.g., whether the customer's purchase is affected by the product's price drop), and handle uncertainty in data (e.g., how certain the model is about the rainfall tomorrow). Unfortunately, DL as a connectionist approach does not natively support any of these desiderata.\n\nThis project aims to develop two sets of methodologies grounded in Bayesian deep learning: (1) \"Bayesian Deep Interpreters,\" which will interpret deep learning models through the use of graphical models that describe the conditional dependencies leading to current predictions. (2) \"Bayesian Deep Controllers,\" which will manage the predictions of deep learning models by adjusting specific random variables within the graphical models associated with the controlled models.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "3000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170062,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264632,
+      "requestId": 1264632,
+      "requestTitle": "The Development Safety of Large Foundation Models",
+      "requestNumber": "NAIRR240040",
+      "pi": "Yang, Tianbao",
+      "piInstitution": "Texas A&M University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Computer Science",
+      "fosTypeId": 502093,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "This project will investigate an importance issue of continual developing large foundation models. While large foundation models have demonstrated remarkable capabilities across various tasks, they are not without limitations, often necessitating iterative updates to enhance their performance in specific domains or tasks. In order to enhance the system's ability to adapt to the changing and complex world, it is necessary to undergo multiple iterations of model development, which involve collecting new data and training new\nmodels. However, this iterative model development process raises significant safety issues that have been overlooked by existing studies in AI, i.e., the model development for acquiring new safety features may inadvertently lose the previously ensured safety features of the old model. This project will investigate novel approaches to address these issues.",
+      "resources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "30000.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530643,
+          "resourceName": "NCSA Delta GPU (Delta GPU)",
+          "resourceType": "Compute",
+          "resourceUnits": "GPU Hours",
+          "amount": "30000.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170063,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264633,
+      "requestId": 1264633,
+      "requestTitle": "Pre-training a generative selective state space model, the Mamba model, on UCSF-specific deidentified clinical notes and time-series structured data",
+      "requestNumber": "NAIRR240052",
+      "pi": "Sushil, Madhumita",
+      "piInstitution": "University of California, San Francisco",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Artificial Intelligence and Intelligent Systems",
+      "fosTypeId": 502096,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "While large language models (LLMs) have made unprecedented advances in the general domain, their advances in medicine are limited by access to large datasets and advanced computing infrastructure. Existing publicly available LLMs are not always sufficient for healthcare-specific use, since they either lack domain knowledge, are expensive to use, or cannot be accessed in a HIPAA-compliant setting. To enable more widespread use of AI within medicine, we aim to develop an effective and task-independent foundation model for medicine trained on a large and diverse corpus of deidentified patient data from electronic health records at University of California San Francisco. A recent family of models, selective state space models, have demonstrated promising capabilities in long sequence processing, providing competitive performance to transformers-based models. In this study, we aim to develop a longitudinal selective state space LLM on medical data by encoding sequential knowledge from clinical encounters for generating future clinical states and actions.",
+      "resources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "17250.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "17250.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170064,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264634,
+      "requestId": 1264634,
+      "requestTitle": "Exploring Backdoor Attacks in Off-the-Shelf Unsupervised Domain Adaptation for Securing Medical Image Analysis",
+      "requestNumber": "NAIRR240016",
+      "pi": "Liu, Xiaofeng",
+      "piInstitution": "Massachusetts General Hospital",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Informatics, Analytics and Information Science",
+      "fosTypeId": 502099,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Recently, the off-the-shelf model for unsupervised domain adaptation (OSUDA) has been introduced to protect patient data privacy and intellectual property of the source domain without access to the labeled source domain data. Yet, our recent works found that an off-the-shelf (OS) diagnosis model, deliberately compromised by backdoor/Trojan attacks during the source domain training phase, can function as a parasite-host, disseminating the backdoor to the target domain model during the OSUDA stage. Therefore, backdoor attacks can pose a serious threat to the reliability of the target domain medical analysis systems. To our knowledge, this is the pioneer attempt at addressing backdoor attacks in medical image analysis for OSUDA. In this project, we propose to quantify the channel-wise backdoor sensitivity, and eliminate the backdoor infection by overwriting the backdoor-related channels to cut-off the infection. If it is successful, the project will have great potential to achieve a secured, privacy-protected, and cross-center generalizable AI system for medical image analysis.",
+      "resources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "500.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530442,
+          "resourceName": "TACC Frontera GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "500.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    },
+    {
+      "actionId": 170065,
+      "actionType": "New",
+      "beginDate": "4/22/24",
+      "endDate": "10/22/24",
+      "requestID": 1264635,
+      "requestId": 1264635,
+      "requestTitle": "Build Reliable and Secure AI Surrogates for Large-Scale Scientific Applications with Portability Performance Analysis",
+      "requestNumber": "NAIRR240028",
+      "pi": "Dong, Wenqian",
+      "piInstitution": "Florida International University",
+      "piUsername": "nairr-user-xxx",
+      "fos": "Applied Computer Science",
+      "fosTypeId": 502099,
+      "opportunity": "NAIRR Pilot Call for Early Allocations",
+      "allocationType": "NAIRR Pilot",
+      "abstract": "Large-scale scientific simulations drive scientific and engineering discovery across many domains, but face performance problems. These simulations typically involve complex physics computations, such as (non-)linear programming problems in transportation, manufacturing, robotics, power grids, and renewable energy systems, which causes unaffordable running time. However, the computation components in the simulations are difficult to scale efficiently on high-performance hardware. \n\nIn the next decade, Artificial Intelligence (AI) and Machine Learning (ML) may revolutionize the natural sciences, enhancing our capacity to model and predict natural occurrences. This could herald a new era of scientific exploration, bringing significant advancements across sectors from drug development to renewable energy.  By employing reverse-engineering and automatic learning methodologies it is often possible to solve complex, unstructured problems with a fraction of the computing power and execution time needed by traditional direct and first-principle methods. A deep neural network provides researchers with a powerful tool to learn the structure of physical phenomena directly from Nature, rather than having to explain the causal relationships through the direct application of physics law. Researchers have found that using AI techniques to act as surrogates for the computation-intensive parts of High-performance Computing (HPC) programs can achieve excellent accelerations.",
+      "resources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "1000.0",
+          "comments": null
+        },
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "2880.0",
+          "comments": null
+        }
+      ],
+      "requestedResources": [
+        {
+          "resourceId": 530838,
+          "resourceName": "TACC Lonestar6-GPU",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "1000.0",
+          "comments": null
+        },
+        {
+          "resourceId": 531859,
+          "resourceName": "DOE Oak Ridge National Laboratory Summit",
+          "resourceType": "Compute",
+          "resourceUnits": "Node Hours",
+          "amount": "2880.0",
+          "comments": null
+        }
+      ],
+      "updateDate": "2024-04-26T14:37:37.922Z"
+    }
+  ],
+  "pages": 1,
+  "filters": {
+    "fosTypes": [
+      {
+        "fos_type_id": 502065,
+        "fos_name": "Agriculture, Forestry, and Fisheries",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502096,
+        "fos_name": "Artificial Intelligence and Intelligent Systems",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502061,
+        "fos_name": "Clinical Medicine",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502093,
+        "fos_name": "Computer Science",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502127,
+        "fos_name": "Ecology",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502072,
+        "fos_name": "Educational Sciences",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502117,
+        "fos_name": "Geology and Solid Earth Sciences",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502099,
+        "fos_name": "Other Computer and Information Sciences",
+        "checked": true
+      },
+      {
+        "fos_type_id": 502085,
+        "fos_name": "Performance Evaluation and Benchmarking",
+        "checked": true
+      }
+    ],
+    "orgs": [
+      "Georgetown University",
+      "Iowa State University",
+      "Johns Hopkins University Applied Physics Laboratory",
+      "Mayo Clinic ",
+      "National Center for Atmospheric Research",
+      "New York University",
+      "Stony Brook University",
+      "University of California, San Francisco",
+      "University of Connecticut (Storrs, CT)",
+      "University of Louisiana at Lafayette",
+      "University of Massachusetts Amherst",
+      "University of Utah",
+      "University of Washington",
+      "University of Washington Tacoma",
+      "Virginia Tech",
+      "William \u0026 Mary"
+    ],
+    "allocationTypes": [
+      "NAIRR PIlot"
+    ]
+  }
+}

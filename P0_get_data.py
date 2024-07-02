@@ -2,6 +2,7 @@ import requests
 import tempfile
 import os
 import time
+import json
 from pathlib import Path
 
 
@@ -23,17 +24,25 @@ def is_file_not_older_than_one_day(f):
     return time_difference < 86400
 
 
-f_name = "current-projects-u.json"
-f_save = Path("data") / f_name
-target_url = "https://nairrpilot.org/app/site/data/" + f_name
+f_name = "current-projects.json"
+target_url = "https://submit-nairr.xras.org/" + f_name
 
-if not is_file_not_older_than_one_day(f_save):
-    r = requests.get(target_url)
-    print(f"Downloading {target_url}")
 
-    assert r.ok
+target_pages = 10
 
-    with open(f_save, "wb") as FOUT:
-        FOUT.write(r.content)
+for n in range(1, target_pages + 1):
+    f_save = Path("data") / f"{n:03d}_{f_name}"
 
-    print(f"Saved {f_save}")
+    if not is_file_not_older_than_one_day(f_save):
+        params = {"page": n}
+        r = requests.get(target_url, params=params)
+        print(f"Downloading {target_url}")
+
+        assert r.ok
+
+        js = json.loads(r.content)
+
+        with open(f_save, "w") as FOUT:
+            FOUT.write(json.dumps(js, indent=2))
+
+        print(f"Saved {f_save}")
